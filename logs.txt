@@ -1,0 +1,395 @@
+Using device: cuda
+
+TRAINING
+Data split:
+  Training: 18325 images
+  Validation: 5235 images
+  Test: 2619 images
+Model parameters: 21,600,842
+Starting training for 100 epochs
+
+Epoch 1/100
+Training: 100% 144/144 [00:21<00:00,  6.60it/s, Loss=2.364, Acc=20.21%]
+Train Loss: 2.3638, Train Acc: 20.21%
+Val Loss: 2.1166, Val Acc: 25.69%
+!!!New best model saved! Val Acc: 25.69%
+
+Epoch 2/100
+Training: 100% 144/144 [00:21<00:00,  6.78it/s, Loss=2.106, Acc=25.87%]
+Train Loss: 2.1065, Train Acc: 25.87%
+Val Loss: 1.9843, Val Acc: 34.02%
+!!!New best model saved! Val Acc: 34.02%
+
+Epoch 3/100
+Training: 100% 144/144 [00:21<00:00,  6.64it/s, Loss=2.002, Acc=31.79%]
+Train Loss: 2.0021, Train Acc: 31.79%
+Val Loss: 1.9164, Val Acc: 38.82%
+!!!New best model saved! Val Acc: 38.82%
+
+Epoch 4/100
+Training: 100% 144/144 [00:21<00:00,  6.66it/s, Loss=1.910, Acc=37.22%]
+Train Loss: 1.9099, Train Acc: 37.22%
+Val Loss: 1.8914, Val Acc: 40.08%
+!!!New best model saved! Val Acc: 40.08%
+
+Epoch 5/100
+Training: 100% 144/144 [00:21<00:00,  6.84it/s, Loss=1.811, Acc=42.00%]
+Train Loss: 1.8114, Train Acc: 42.00%
+Val Loss: 1.9074, Val Acc: 41.49%
+!!!New best model saved! Val Acc: 41.49%
+
+Epoch 6/100
+Training: 100% 144/144 [00:21<00:00,  6.57it/s, Loss=1.713, Acc=46.71%]
+Train Loss: 1.7134, Train Acc: 46.71%
+Val Loss: 1.6607, Val Acc: 53.01%
+!!!New best model saved! Val Acc: 53.01%
+
+Epoch 7/100
+Training: 100% 144/144 [00:21<00:00,  6.75it/s, Loss=1.624, Acc=50.94%]
+Train Loss: 1.6239, Train Acc: 50.94%
+Val Loss: 1.7055, Val Acc: 46.44%
+
+Epoch 8/100
+Training: 100% 144/144 [00:21<00:00,  6.68it/s, Loss=1.575, Acc=53.09%]
+Train Loss: 1.5746, Train Acc: 53.09%
+Val Loss: 1.6161, Val Acc: 57.59%
+!!!New best model saved! Val Acc: 57.59%
+
+Epoch 9/100
+Training: 100% 144/144 [00:21<00:00,  6.75it/s, Loss=1.517, Acc=56.09%]
+Train Loss: 1.5173, Train Acc: 56.09%
+Val Loss: 1.5665, Val Acc: 60.44%
+!!!New best model saved! Val Acc: 60.44%
+
+Epoch 10/100
+Training: 100% 144/144 [00:21<00:00,  6.73it/s, Loss=1.477, Acc=57.33%]
+Train Loss: 1.4766, Train Acc: 57.33%
+Val Loss: 1.5294, Val Acc: 61.03%
+!!!New best model saved! Val Acc: 61.03%
+
+Epoch 11/100
+Training: 100% 144/144 [00:20<00:00,  6.90it/s, Loss=1.429, Acc=59.89%]
+Train Loss: 1.4289, Train Acc: 59.89%
+Val Loss: 1.5749, Val Acc: 55.47%
+
+Epoch 12/100
+Training: 100% 144/144 [00:21<00:00,  6.69it/s, Loss=1.399, Acc=61.15%]
+Train Loss: 1.3995, Train Acc: 61.15%
+Val Loss: 1.4612, Val Acc: 62.98%
+!!!New best model saved! Val Acc: 62.98%
+
+Epoch 13/100
+Training: 100% 144/144 [00:21<00:00,  6.77it/s, Loss=1.374, Acc=62.62%]
+Train Loss: 1.3743, Train Acc: 62.62%
+Val Loss: 1.4935, Val Acc: 58.15%
+
+Epoch 14/100
+Training: 100% 144/144 [00:21<00:00,  6.80it/s, Loss=1.333, Acc=64.44%]
+Train Loss: 1.3326, Train Acc: 64.44%
+Val Loss: 1.3666, Val Acc: 68.18%
+!!!New best model saved! Val Acc: 68.18%
+
+Epoch 15/100
+Training: 100% 144/144 [00:21<00:00,  6.79it/s, Loss=1.310, Acc=65.88%]
+Train Loss: 1.3102, Train Acc: 65.88%
+Val Loss: 1.4578, Val Acc: 64.34%
+
+Epoch 16/100
+Training: 100% 144/144 [00:21<00:00,  6.74it/s, Loss=1.286, Acc=66.86%]
+Train Loss: 1.2860, Train Acc: 66.86%
+Val Loss: 1.4280, Val Acc: 65.46%
+
+Epoch 17/100
+Training: 100% 144/144 [00:21<00:00,  6.61it/s, Loss=1.261, Acc=68.39%]
+Train Loss: 1.2609, Train Acc: 68.39%
+Val Loss: 1.3977, Val Acc: 67.62%
+
+Epoch 18/100
+Training: 100% 144/144 [00:21<00:00,  6.86it/s, Loss=1.224, Acc=69.95%]
+Train Loss: 1.2237, Train Acc: 69.95%
+Val Loss: 1.3017, Val Acc: 71.44%
+!!!New best model saved! Val Acc: 71.44%
+
+Epoch 19/100
+Training: 100% 144/144 [00:21<00:00,  6.77it/s, Loss=1.207, Acc=70.94%]
+Train Loss: 1.2075, Train Acc: 70.94%
+Val Loss: 1.3299, Val Acc: 70.41%
+
+Epoch 20/100
+Training: 100% 144/144 [00:21<00:00,  6.77it/s, Loss=1.183, Acc=71.52%]
+Train Loss: 1.1830, Train Acc: 71.52%
+Val Loss: 1.3169, Val Acc: 70.07%
+
+Epoch 21/100
+Training: 100% 144/144 [00:20<00:00,  6.90it/s, Loss=1.152, Acc=73.39%]
+Train Loss: 1.1520, Train Acc: 73.39%
+Val Loss: 1.3453, Val Acc: 69.53%
+
+Epoch 22/100
+Training: 100% 144/144 [00:21<00:00,  6.63it/s, Loss=1.127, Acc=74.52%]
+Train Loss: 1.1272, Train Acc: 74.52%
+Val Loss: 1.2766, Val Acc: 71.65%
+!!!New best model saved! Val Acc: 71.65%
+
+Epoch 23/100
+Training: 100% 144/144 [00:21<00:00,  6.83it/s, Loss=1.118, Acc=74.88%]
+Train Loss: 1.1177, Train Acc: 74.88%
+Val Loss: 1.2606, Val Acc: 74.02%
+!!!New best model saved! Val Acc: 74.02%
+
+Epoch 24/100
+Training: 100% 144/144 [00:22<00:00,  6.51it/s, Loss=1.085, Acc=76.20%]
+Train Loss: 1.0846, Train Acc: 76.20%
+Val Loss: 1.1916, Val Acc: 76.77%
+!!!New best model saved! Val Acc: 76.77%
+
+Epoch 25/100
+Training: 100% 144/144 [00:21<00:00,  6.85it/s, Loss=1.058, Acc=77.49%]
+Train Loss: 1.0579, Train Acc: 77.49%
+Val Loss: 1.1666, Val Acc: 74.67%
+
+Epoch 26/100
+Training: 100% 144/144 [00:21<00:00,  6.62it/s, Loss=1.052, Acc=77.39%]
+Train Loss: 1.0522, Train Acc: 77.39%
+Val Loss: 1.2540, Val Acc: 72.66%
+
+Epoch 27/100
+Training: 100% 144/144 [00:21<00:00,  6.71it/s, Loss=1.023, Acc=79.08%]
+Train Loss: 1.0228, Train Acc: 79.08%
+Val Loss: 1.1596, Val Acc: 76.29%
+
+Epoch 28/100
+Training: 100% 144/144 [00:21<00:00,  6.74it/s, Loss=0.989, Acc=80.63%]
+Train Loss: 0.9886, Train Acc: 80.63%
+Val Loss: 1.1659, Val Acc: 76.47%
+
+Epoch 29/100
+Training: 100% 144/144 [00:21<00:00,  6.83it/s, Loss=0.972, Acc=81.52%]
+Train Loss: 0.9724, Train Acc: 81.52%
+Val Loss: 1.2841, Val Acc: 70.07%
+
+Epoch 30/100
+Training: 100% 144/144 [00:21<00:00,  6.61it/s, Loss=0.913, Acc=84.09%]
+Train Loss: 0.9135, Train Acc: 84.09%
+Val Loss: 1.1337, Val Acc: 75.63%
+
+Epoch 31/100
+Training: 100% 144/144 [00:21<00:00,  6.74it/s, Loss=0.869, Acc=86.19%]
+Train Loss: 0.8691, Train Acc: 86.19%
+Val Loss: 1.0511, Val Acc: 80.74%
+!!!New best model saved! Val Acc: 80.74%
+
+Epoch 32/100
+Training: 100% 144/144 [00:21<00:00,  6.56it/s, Loss=0.858, Acc=86.65%]
+Train Loss: 0.8583, Train Acc: 86.65%
+Val Loss: 1.0393, Val Acc: 80.76%
+!!!New best model saved! Val Acc: 80.76%
+
+Epoch 33/100
+Training: 100% 144/144 [00:21<00:00,  6.70it/s, Loss=0.846, Acc=87.50%]
+Train Loss: 0.8457, Train Acc: 87.50%
+Val Loss: 1.0195, Val Acc: 82.16%
+!!!New best model saved! Val Acc: 82.16%
+
+Epoch 34/100
+Training: 100% 144/144 [00:21<00:00,  6.57it/s, Loss=0.827, Acc=88.37%]
+Train Loss: 0.8272, Train Acc: 88.37%
+Val Loss: 1.0301, Val Acc: 80.08%
+
+Epoch 35/100
+Training: 100% 144/144 [00:21<00:00,  6.67it/s, Loss=0.819, Acc=88.58%]
+Train Loss: 0.8195, Train Acc: 88.58%
+Val Loss: 1.0122, Val Acc: 81.09%
+
+Epoch 36/100
+Training: 100% 144/144 [00:21<00:00,  6.64it/s, Loss=0.802, Acc=89.41%]
+Train Loss: 0.8017, Train Acc: 89.41%
+Val Loss: 1.0570, Val Acc: 80.25%
+
+Epoch 37/100
+Training: 100% 144/144 [00:21<00:00,  6.82it/s, Loss=0.794, Acc=89.59%]
+Train Loss: 0.7943, Train Acc: 89.59%
+Val Loss: 0.9983, Val Acc: 81.91%
+
+Epoch 38/100
+Training: 100% 144/144 [00:21<00:00,  6.83it/s, Loss=0.788, Acc=89.88%]
+Train Loss: 0.7876, Train Acc: 89.88%
+Val Loss: 1.0239, Val Acc: 81.18%
+
+Epoch 39/100
+Training: 100% 144/144 [00:21<00:00,  6.83it/s, Loss=0.755, Acc=91.59%]
+Train Loss: 0.7545, Train Acc: 91.59%
+Val Loss: 0.9703, Val Acc: 83.42%
+!!!New best model saved! Val Acc: 83.42%
+
+Epoch 40/100
+Training: 100% 144/144 [00:21<00:00,  6.63it/s, Loss=0.733, Acc=91.95%]
+Train Loss: 0.7333, Train Acc: 91.95%
+Val Loss: 0.9444, Val Acc: 84.18%
+!!!New best model saved! Val Acc: 84.18%
+
+Epoch 41/100
+Training: 100% 144/144 [00:21<00:00,  6.72it/s, Loss=0.722, Acc=92.64%]
+Train Loss: 0.7218, Train Acc: 92.64%
+Val Loss: 0.9588, Val Acc: 83.36%
+
+Epoch 42/100
+Training: 100% 144/144 [00:21<00:00,  6.59it/s, Loss=0.714, Acc=93.10%]
+Train Loss: 0.7143, Train Acc: 93.10%
+Val Loss: 0.9839, Val Acc: 82.48%
+
+Epoch 43/100
+Training: 100% 144/144 [00:21<00:00,  6.78it/s, Loss=0.714, Acc=92.81%]
+Train Loss: 0.7136, Train Acc: 92.81%
+Val Loss: 0.9648, Val Acc: 83.36%
+
+Epoch 44/100
+Training: 100% 144/144 [00:20<00:00,  6.87it/s, Loss=0.714, Acc=92.99%]
+Train Loss: 0.7138, Train Acc: 92.99%
+Val Loss: 0.9637, Val Acc: 83.00%
+
+Epoch 45/100
+Training: 100% 144/144 [00:20<00:00,  6.93it/s, Loss=0.711, Acc=93.05%]
+Train Loss: 0.7112, Train Acc: 93.05%
+Val Loss: 0.9528, Val Acc: 82.75%
+
+Epoch 46/100
+Training: 100% 144/144 [00:21<00:00,  6.74it/s, Loss=0.695, Acc=93.76%]
+Train Loss: 0.6953, Train Acc: 93.76%
+Val Loss: 0.9216, Val Acc: 84.43%
+!!!New best model saved! Val Acc: 84.43%
+
+Epoch 47/100
+Training: 100% 144/144 [00:21<00:00,  6.84it/s, Loss=0.682, Acc=94.40%]
+Train Loss: 0.6821, Train Acc: 94.40%
+Val Loss: 0.9279, Val Acc: 84.32%
+
+Epoch 48/100
+Training: 100% 144/144 [00:21<00:00,  6.65it/s, Loss=0.680, Acc=94.30%]
+Train Loss: 0.6795, Train Acc: 94.30%
+Val Loss: 0.9386, Val Acc: 83.84%
+
+Epoch 49/100
+Training: 100% 144/144 [00:20<00:00,  6.92it/s, Loss=0.678, Acc=94.23%]
+Train Loss: 0.6785, Train Acc: 94.23%
+Val Loss: 0.9434, Val Acc: 84.05%
+
+Epoch 50/100
+Training: 100% 144/144 [00:21<00:00,  6.82it/s, Loss=0.671, Acc=94.67%]
+Train Loss: 0.6706, Train Acc: 94.67%
+Val Loss: 0.9384, Val Acc: 84.09%
+
+Epoch 51/100
+Training: 100% 144/144 [00:21<00:00,  6.70it/s, Loss=0.671, Acc=94.66%]
+Train Loss: 0.6711, Train Acc: 94.66%
+Val Loss: 0.9361, Val Acc: 83.63%
+
+Epoch 52/100
+Training: 100% 144/144 [00:21<00:00,  6.66it/s, Loss=0.664, Acc=94.94%]
+Train Loss: 0.6640, Train Acc: 94.94%
+Val Loss: 0.9208, Val Acc: 84.39%
+
+Epoch 53/100
+Training: 100% 144/144 [00:21<00:00,  6.80it/s, Loss=0.665, Acc=94.83%]
+Train Loss: 0.6651, Train Acc: 94.83%
+Val Loss: 0.9256, Val Acc: 84.34%
+
+Epoch 54/100
+Training: 100% 144/144 [00:21<00:00,  6.75it/s, Loss=0.665, Acc=94.86%]
+Train Loss: 0.6648, Train Acc: 94.86%
+Val Loss: 0.9164, Val Acc: 84.62%
+!!!New best model saved! Val Acc: 84.62%
+
+Epoch 55/100
+Training: 100% 144/144 [00:21<00:00,  6.60it/s, Loss=0.658, Acc=95.29%]
+Train Loss: 0.6576, Train Acc: 95.29%
+Val Loss: 0.9245, Val Acc: 84.28%
+
+Epoch 56/100
+Training: 100% 144/144 [00:20<00:00,  6.93it/s, Loss=0.656, Acc=95.33%]
+Train Loss: 0.6562, Train Acc: 95.33%
+Val Loss: 0.9247, Val Acc: 84.01%
+
+Epoch 57/100
+Training: 100% 144/144 [00:21<00:00,  6.73it/s, Loss=0.658, Acc=95.14%]
+Train Loss: 0.6578, Train Acc: 95.14%
+Val Loss: 0.9185, Val Acc: 84.20%
+
+Epoch 58/100
+Training: 100% 144/144 [00:21<00:00,  6.80it/s, Loss=0.652, Acc=95.36%]
+Train Loss: 0.6520, Train Acc: 95.36%
+Val Loss: 0.9229, Val Acc: 84.18%
+
+Epoch 59/100
+Training: 100% 144/144 [00:21<00:00,  6.70it/s, Loss=0.647, Acc=95.61%]
+Train Loss: 0.6474, Train Acc: 95.61%
+Val Loss: 0.9164, Val Acc: 84.53%
+
+Epoch 60/100
+Training: 100% 144/144 [00:20<00:00,  6.87it/s, Loss=0.651, Acc=95.41%]
+Train Loss: 0.6512, Train Acc: 95.41%
+Val Loss: 0.9191, Val Acc: 84.16%
+
+Epoch 61/100
+Training: 100% 144/144 [00:21<00:00,  6.74it/s, Loss=0.646, Acc=95.63%]
+Train Loss: 0.6464, Train Acc: 95.63%
+Val Loss: 0.9161, Val Acc: 84.45%
+
+Epoch 62/100
+Training: 100% 144/144 [00:20<00:00,  6.86it/s, Loss=0.648, Acc=95.60%]
+Train Loss: 0.6482, Train Acc: 95.60%
+Val Loss: 0.9237, Val Acc: 84.09%
+
+Epoch 63/100
+Training: 100% 144/144 [00:21<00:00,  6.73it/s, Loss=0.648, Acc=95.38%]
+Train Loss: 0.6482, Train Acc: 95.38%
+Val Loss: 0.9200, Val Acc: 84.37%
+
+Epoch 64/100
+Training: 100% 144/144 [00:20<00:00,  6.94it/s, Loss=0.644, Acc=95.64%]
+Train Loss: 0.6442, Train Acc: 95.64%
+Val Loss: 0.9183, Val Acc: 84.53%
+Early stopping at epoch 64
+
+Training completed. Best validation accuracy: 84.62%
+Figure(1200x400)
+Training curves saved to results/training_curves.png
+
+EVALUATION
+Data split:
+  Training: 18325 images
+  Validation: 5235 images
+  Test: 2619 images
+Loaded model from models/best_model.pth
+Evaluating model
+Testing: 100% 21/21 [00:03<00:00,  6.21it/s]
+
+Test Results:
+Test Loss: 0.6220
+Test Accuracy: 85.53%
+Correct predictions: 2240/2619
+
+Detailed Classification Report:
+============================================================
+              precision    recall  f1-score   support
+
+         dog     0.8596    0.8802    0.8698       501
+       horse     0.9127    0.7684    0.8343       272
+    elephant     0.9014    0.8366    0.8678       153
+   butterfly     0.9065    0.8661    0.8858       224
+     chicken     0.9017    0.9110    0.9063       292
+         cat     0.8758    0.7882    0.8297       170
+         cow     0.6518    0.7604    0.7019       192
+       sheep     0.7845    0.8161    0.8000       174
+      spider     0.9145    0.9264    0.9204       462
+    squirrel     0.7600    0.8492    0.8021       179
+
+    accuracy                         0.8553      2619
+   macro avg     0.8469    0.8403    0.8418      2619
+weighted avg     0.8600    0.8553    0.8562      2619
+
+Classification report saved to results/classification_report.txt
+Figure(1000x800)
+Confusion matrix saved to results/confusion_matrix.png
+Figure(1200x600)
+Sample predictions saved to results/sample_predictions.png
