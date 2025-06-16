@@ -160,4 +160,4 @@ Po uruchomieniu projektu zostają wygenerowane:
 - **Batch Norm**
 - **Dropout**
 - **Learning Rate Scheduling**: ReduceLROnPlateau
-- **Early Stopping**: Zapobiega overfittingowi
+- **Early Stopping**:
