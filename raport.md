@@ -27,8 +27,10 @@ Model trenowany przez 100 epok z early stopping (patience=10).
 Najlepszy wynik walidacyjny osiągnięty w 54 epoce. Training accuracy osiągnęła ~95%, podczas gdy validation accuracy ustabilizowała się na ~85%.  
 Po 64 epoce trening został przerwany.   
 Dokładne logi z treningu można zobaczyć w katalogu other w pliku logs.txt lub logs.pdf.  
+Model osiągnął bardzo dobre wyniki (85.53% accuracy), ale istnieje potencjał do dalszej poprawy, szczególnie dla klas cow, sheep i cat. Można rozważyć
+wykorzystanie transfer learningu.
 
-## 2. Model i uzasadnienie
+## 2. Model i techniki
 
 ## Architektura Modelu
 
@@ -88,6 +90,3 @@ Sieci konwolucyjne są naturalnym wyborem dla klasyfikacji obrazów. Progresywne
 - **Nierównomierne rozkłady**: Niektóre klasy mają więcej próbek (dog: 501 vs elephant: 153)
 - **Różnorodność**: Obrazy w różnych pozach, oświetleniu i tle
 - **Jakość**: Wysokiej jakości obrazy z wyraźnymi obiektami
-
-## 5. Analiza Wyników
-
