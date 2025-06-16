@@ -28,7 +28,33 @@ Najlepszy wynik walidacyjny osiągnięty w 54 epoce. Training accuracy osiągnę
 Po 64 epoce trening został przerwany.   
 Dokładne logi z treningu można zobaczyć w katalogu other w pliku logs.txt lub logs.pdf.  
 
-## 2. Uzasadnienie Wyboru Techniki/Modelu
+## 2. Model i uzasadnienie
+
+## Architektura Modelu
+
+Model AnimalCNN składa się z:
+- **Feature Extractor**: 4 bloki konwolucyjne z BatchNorm i MaxPooling
+- **Classifier**: 3-warstwowa sieć fully-connected z Dropout
+- **Parametry**: ~21.5M parametrów trenowalnych
+
+### Szczegóły Architektury:
+```
+Conv Block 1: 3→64 channels (128x128 → 64x64)
+Conv Block 2: 64→128 channels (64x64 → 32x32)  
+Conv Block 3: 128→256 channels (32x32 → 16x16)
+Conv Block 4: 256→512 channels (16x16 → 8x8)
+FC Layers: 512*8*8 → 512 → 256 → 10
+```  
+Sieci konwolucyjne są naturalnym wyborem dla klasyfikacji obrazów. Progresywne zwiększanie liczby filtrów (64→128→256→512) pozwala na hierarchiczne uczenie się cech.
+
+## Optymalizacje i Techniki
+
+- **Data Augmentation**: Flip, rotacja, color jitter - Zwiększa różnorodność datasetu poprzez transformacje obrazów, co poprawia generalizację modelu i redukuje overfitting.
+- **Batch Norm** - Stabilizuje proces treningu poprzez normalizację wejść do każdej warstwy
+- **Max Pooling** - Redukuje wymiarowość przestrzenną i zmniejsza liczbę parametrów.
+- **Dropout** - Zapobiega overfittingowi poprzez losowe wyłączanie neuronów
+- **Learning Rate Scheduling**: ReduceLROnPlateau - Automatycznie zmniejsza learning rate gdy accuracy przestaje się poprawiać. Pozwala na fine-tuning w późniejszych fazach treningu
+- **Early Stopping**: Zatrzymuje trening gdy model zaczyna się przeuczać
 
 ## 3. Strategia Podziału Danych
 
@@ -64,3 +90,4 @@ Dokładne logi z treningu można zobaczyć w katalogu other w pliku logs.txt lub
 - **Jakość**: Wysokiej jakości obrazy z wyraźnymi obiektami
 
 ## 5. Analiza Wyników
+
