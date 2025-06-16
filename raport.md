@@ -1,4 +1,4 @@
-# Raport Projektu: CNN Animal Classification - Animals-10 Dataset
+# Mateusz Wołowiec - Raport Projektu: CNN Animal Classification - Animals-10 Dataset
 
 ## 1. Opis Danych Wejściowych
 
