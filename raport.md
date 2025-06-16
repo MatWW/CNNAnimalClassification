@@ -59,6 +59,7 @@ Sieci konwolucyjne są naturalnym wyborem dla klasyfikacji obrazów. Progresywne
 - **Max Pooling** - Redukuje wymiarowość przestrzenną i zmniejsza liczbę parametrów.
 - **Dropout** - Zapobiega overfittingowi poprzez losowe wyłączanie neuronów
 - **Optimizer Adam z Learning Rate Scheduling**: ReduceLROnPlateau - Automatycznie zmniejsza learning rate gdy accuracy przestaje się poprawiać. Pozwala na fine-tuning w późniejszych fazach treningu
+- **CELoss**: jako funkcja straty
 - **Early Stopping**: Zatrzymuje trening gdy model zaczyna się przeuczać
 
 ## 4. Wyniki Testowe i Treningowe
