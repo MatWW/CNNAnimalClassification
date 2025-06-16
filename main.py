@@ -11,7 +11,7 @@ def main():
     parser = argparse.ArgumentParser(description='Animals-10 Classification')
     parser.add_argument('--mode', choices=['train', 'eval', 'both'], default='both',
                         help='Mode: train, eval, or both')
-    parser.add_argument('--epochs', type=int, default=65,
+    parser.add_argument('--epochs', type=int, default=100,
                         help='Number of training epochs')
     parser.add_argument('--batch_size', type=int, default=128,
                         help='Batch size for training')
