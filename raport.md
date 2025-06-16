@@ -58,7 +58,7 @@ Sieci konwolucyjne są naturalnym wyborem dla klasyfikacji obrazów. Progresywne
 - **Batch Norm** - Stabilizuje proces treningu poprzez normalizację wejść do każdej warstwy
 - **Max Pooling** - Redukuje wymiarowość przestrzenną i zmniejsza liczbę parametrów.
 - **Dropout** - Zapobiega overfittingowi poprzez losowe wyłączanie neuronów
-- **Learning Rate Scheduling**: ReduceLROnPlateau - Automatycznie zmniejsza learning rate gdy accuracy przestaje się poprawiać. Pozwala na fine-tuning w późniejszych fazach treningu
+- **Optimizer Adam z Learning Rate Scheduling**: ReduceLROnPlateau - Automatycznie zmniejsza learning rate gdy accuracy przestaje się poprawiać. Pozwala na fine-tuning w późniejszych fazach treningu
 - **Early Stopping**: Zatrzymuje trening gdy model zaczyna się przeuczać
 
 ## 4. Wyniki Testowe i Treningowe
