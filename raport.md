@@ -31,7 +31,6 @@
 - **Random Horizontal Flip (p=0.5)**: Zwiększenie różnorodności
 - **Random Rotation (±10°)**: Odporność na orientację 
 - **Color Jitter**: Odporność na różne warunki oświetleniowe
-- **Normalizacja**: Standaryzacja do zakresu [-1, 1]
 
 ## 3. Model i techniki
 
