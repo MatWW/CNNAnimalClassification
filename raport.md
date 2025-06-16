@@ -89,5 +89,4 @@ Model trenowany przez 100 epok z early stopping (patience=10).
 Najlepszy wynik walidacyjny osiągnięty w 54 epoce. Training accuracy osiągnęła ~95%, podczas gdy validation accuracy ustabilizowała się na ~85%.  
 Po 64 epoce trening został przerwany.   
 Dokładne logi z treningu można zobaczyć w katalogu other w pliku logs.txt lub logs.pdf.  
-Model osiągnął bardzo dobre wyniki (85.53% accuracy), ale istnieje potencjał do dalszej poprawy, szczególnie dla klas cow, sheep czy squirrel. Można rozważyć
-wykorzystanie transfer learningu.
+Model osiągnął bardzo dobre wyniki (85.53% accuracy), ale istnieje potencjał do dalszej poprawy, szczególnie dla klas cow, sheep czy squirrel. Można rozważyć zastosowanie augmentacji danych polegającą na generowaniu dodatkowych przekształconych wersji istniejących obrazów z klas mniejszościowych. Można też rozważyć wykorzystanie transfer learningu, zamiast budowania CNN od podstaw.
