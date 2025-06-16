@@ -135,16 +135,6 @@ FC Layers: 512*8*8 → 512 → 256 → 10
 - **Recall (weighted avg)**: 85.53%
 - **F1-Score (weighted avg)**: 85.62%
 
-### Najlepsze Klasy:
-1. Spider: 92.04% F1-score
-2. Chicken: 90.63% F1-score
-3. Butterfly: 88.58% F1-score
-
-### Najtrudniejsze Klasy:
-1. Cow: 70.19% F1-score
-2. Cat: 82.97% F1-score
-3. Squirrel: 80.21% F1-score
-
 ## Wizualizacje i Wyniki
 
 Po uruchomieniu projektu zostają wygenerowane:
@@ -152,12 +142,3 @@ Po uruchomieniu projektu zostają wygenerowane:
 - `results/confusion_matrix.png` - Macierz konfuzji
 - `results/sample_predictions.png` - Przykładowe predykcje
 - `results/classification_report.txt` - Szczegółowy raport
-
-## Optymalizacje i Techniki
-
-- **Normalizacja danych**
-- **Data Augmentation**: Flip, rotacja, color jitter
-- **Batch Norm**
-- **Dropout**
-- **Learning Rate Scheduling**: ReduceLROnPlateau
-- **Early Stopping**:
